@@ -1,5 +1,5 @@
 ---
-title: "Матрица зрелости продукта"
+title: "DevSecOps Матрица"
 description: "Оцени продукт на технологическое совершенство."
 simple_list: true
 type: docs
