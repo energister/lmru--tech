@@ -140,7 +140,7 @@
       "Cases": "BFF",
       "Research": "",
       "Trial": "<code class='code code--framework'>Node.JS</code> <code class='code code--lang'>Java</code> <code class='code code--lang'>Kotlin</code>",
-      "Best choice": "<code class='code code--tool'>Platformeco</code>",
+      "Best choice": "<code class='code code--x'>Platformeco</code>",
       "Hold": "<code class='code code--lang'>Python</code>"
     },
     {
@@ -180,15 +180,15 @@
       "Cases": "Apisation",
       "Research": "",
       "Trial": "",
-      "Best choice": "<code class='code code--platform'>Platformeco</code>",
+      "Best choice": "<code class='code code--tool'>Platformeco</code>",
       "Hold": ""
     },
     {
       "Area": "Frontends",
       "Cases": "Web",
       "Research": "",
-      "Trial": "<code class='code code--framework'>Vue.js</code> <code class='code code--tool'>WebComponents</code> <code class='code code--framework'>Angular</code> <code class='code code--tool'>OKAPI</code> <code class='code code--tool'>Linaria</code> <code class='code code--framework'>Mobx</code> <code class='code code--framework'>Redux</code>",
-      "Best choice": "<code class='code code--lang'>TypeScript</code> <code class='code code--lang'>JavaScript</code> <code class='code code--framework'>React</code> <code class='code code--framework'>HTTP2</code> <code class='code code--tool'>CSS Modules</code>",
+      "Trial": "<code class='code code--framework'>Vue.js</code> <code class='code code--tool'>WebComponents</code> <code class='code code--framework'>Angular</code> <code class='code code--framework'>Mobx</code>",
+      "Best choice": "<code class='code code--lang'>TypeScript</code> <code class='code code--lang'>JavaScript</code> <code class='code code--framework'>React</code> <code class='code code--tool'>Linaria</code> <code class='code code--tool'>OKAPI</code> <code class='code code--framework'>HTTP2</code> <code class='code code--tool'>CSS Modules</code> <code class='code code--framework'>Redux</code>",
       "Hold": "<code class='code code--lang'>PHP</code> <code class='code code--framework'>AEM</code> <code class='code code--framework'>BEM</code> <code class='code code--framework'>Bitrix</code>"
     },
     {
@@ -202,7 +202,7 @@
     {
       "Area": "Frontends",
       "Cases": "Mobile",
-      "Research": "<code class='code code--tool'>Kaspresso</code> <code class='code code--tool'>XCTest</code> <code class='code code--tool'>Jetpack Compose</code>",
+      "Research": "<code class='code code--tool'>Qt</code> <code class='code code--tool'>Kaspresso</code> <code class='code code--tool'>XCTest</code> <code class='code code--tool'>Jetpack Compose</code>",
       "Trial": "<code class='code code--framework'>React Native</code> <code class='code code--tool'>Jetpack Navigation</code>",
       "Best choice": "<code class='code code--lang'>Swift</code> <code class='code code--tool'>Alamofire</code> <code class='code code--lang'>Kotlin</code> <code class='code code--tool'>Firebase</code> <code class='code code--tool'>Room</code> <code class='code code--tool'>Core Data</code> <code class='code code--tool'>Retrofit + Okhttp</code> <code class='code code--tool'>Kotlin Multiplatform Mobile</code>",
       "Hold": "<code class='code code--lang'>Java</code> <code class='code code--lang'>Objective-C</code> <code class='code code--framework'>RxJava</code> <code class='code code--framework'>gRPC</code>"
@@ -211,17 +211,17 @@
       "Area": "Frontends",
       "Cases": "Design Systems for Mobile",
       "Research": "",
-      "Trial": "<code class='code code--framework'>LMUI</code>",
+      "Trial": "",
       "Best choice": "<code class='code code--framework'>Fronton</code>",
-      "Hold": ""
+      "Hold": "<code class='code code--framework'>LMUI</code>"
     },
     {
       "Area": "QA",
       "Cases": "Functional",
-      "Research": "<code class='code code--tool'>Stubber</code>  <code class='code code--tool'>Allure Server</code> <code class='code code--framework'>Cucumber</code>",
-      "Trial": "<code class='code code--lang'>Kotlin</code> <code class='code code--framework'>Codecept JS</code>",
-      "Best choice": "<code class='code code--framework'>Mocha</code> <code class='code code--lang'>Java</code> <code class='code code--lang'>JavaScript</code> <code class='code code--tool'>WireMock</code> <code class='code code--tool'>Umbrella</code> <code class='code code--framework'>TestNG</code> <code class='code code--tool'>Mountebank</code> <code class='code code--framework'>Appium</code> <code class='code code--tool'>Grafana</code> <code class='code code--framework'>Selenide</code>",
-      "Hold": "<code class='code code--framework'>Selenuim</code> <code class='code code--framework'>Rest-Assured</code> <code class='code code--framework'>Gemini</code> <code class='code code--framework'>Nightwatch</code>"
+      "Research": "<code class='code code--tool'>Stubber</code> <code class='code code--tool'>JUnit 5</code> <code class='code code--framework'>Cucumber</code>",
+      "Trial": "<code class='code code--lang'>Kotlin</code> <code class='code code--framework'>Codecept JS</code> <code class='code code--framework'>REST Assured</code>",
+      "Best choice": "<code class='code code--tool'>Allure</code> <code class='code code--framework'>Mocha</code> <code class='code code--lang'>Java</code> <code class='code code--lang'>JavaScript</code> <code class='code code--tool'>WireMock</code> <code class='code code--tool'>Umbrella</code> <code class='code code--framework'>TestNG</code> <code class='code code--tool'>Mountebank</code> <code class='code code--framework'>Appium</code> <code class='code code--tool'>Grafana</code> <code class='code code--framework'>Selenide</code>",
+      "Hold": "<code class='code code--framework'>Selenuim</code> <code class='code code--framework'>Gemini</code> <code class='code code--framework'>Nightwatch</code>"
     },
     {
       "Area": "QA",
@@ -234,26 +234,26 @@
     {
       "Area": "QA",
       "Cases": "Infrastructure & Documentation",
-      "Research": "<code class='code code--tool'>Allure Server</code>",
-      "Trial": "",
-      "Best choice": "<code class='code code--tool'>Moon</code> <code class='code code--tool'>TestRail</code> <code class='code code--tool'>Browserstack</code> <code class='code code--tool'>Umbrella</code>",
-      "Hold": "<code class='code code--tool'>Selenium Grid</code> <code class='code code--tool'>Confluence</code>"
+      "Research": "",
+      "Trial": "<code class='code code--framework'>Umbrella 2.0</code>",
+      "Best choice": "<code class='code code--tool'>Allure TestOps</code><code class='code code--tool'>Moon</code> <code class='code code--tool'>Browserstack</code> <code class='code code--tool'>Umbrella</code>",
+      "Hold": "<code class='code code--tool'>Selenium Grid</code> <code class='code code--tool'>Confluence</code> <code class='code code--tool'>TestRail</code>"
     },
     {
       "Area": "API management",
       "Cases": "Internal product integrations",
-      "Research": "",
-      "Trial": "<code class='code code--framework'>gRPC</code> <code class='code code--framework'>GraphQL</code> <code class='code code--framework'>WebSocket</code> <code class='code code--tool'>NATS</code> <code class='code code--tool'>NATS Streaming</code> <code class='code code--tool'>Kafka Connect</code>",
+      "Research": "<code class='code code--tool'>S3</code>",
+      "Trial": "<code class='code code--framework'>gRPC</code> <code class='code code--framework'>WebSocket</code> <code class='code code--tool'>NATS</code> <code class='code code--tool'>NATS Streaming</code> <code class='code code--tool'>Kafka Connect</code>",
       "Best choice": "<code class='code code--framework'>REST</code> <code class='code code--tool'>RabbitMQ</code> <code class='code code--tool'>Kafka</code>",
       "Hold": "<code class='code code--tool'>SOAP</code> <code class='code code--tool'>JMS</code> <code class='code code--tool'>ActiveMQ</code>"
     },
         {
       "Area": "API management",
       "Cases": "Product to Product integrations",
-      "Research": "",
+      "Research": "<code class='code code--tool'>S3</code>",
       "Trial": "",
-      "Best choice": "<code class='code code--framework'>REST</code> <code class='code code--tool'>RabbitMQ</code> <code class='code code--tool'>Kafka</code>",
-      "Hold": "<code class='code code--tool'>FTP / SFTP</code> <code class='code code--framework'>gRPC</code> <code class='code code--framework'>GraphQL</code> <code class='code code--tool'>ActiveMQ</code> <code class='code code--tool'>JMS</code>"
+      "Best choice": "<code class='code code--framework'>REST (Plain JSON)</code> <code class='code code--tool'>RabbitMQ</code> <code class='code code--tool'>Kafka</code>",
+      "Hold": "<code class='code code--tool'>FTP / SFTP</code> <code class='code code--framework'>gRPC</code> <code class='code code--framework'>GraphQL</code> <code class='code code--tool'>ActiveMQ</code> <code class='code code--tool'>JMS</code> <code class='code code--language'>XML</code> <code class='code code--language'>SOAP</code>"
     },
     {
       "Area": "API management",
@@ -266,50 +266,42 @@
     {
       "Area": "Observability",
       "Cases": "Monitoring (application)",
-      "Research": "<code class='code code--tool'>Gogomonia</code>",
+      "Research": "<code class='code code--tool'>Gogomonia</code> <code class='code code--framework'>Open Telemetry</code>",
       "Trial": "<code class='code code--tool'>VictoriaMetrics</code>",
-      "Best choice": "<code class='code code--tool'>Prometheus</code> <code class='code code--tool'>Dynatrace</code>",
-      "Hold": "<code class='code code--tool'>Pingdom</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Zabbix</code>"
+      "Best choice": "<code class='code code--tool'>Prometheus</code>",
+      "Hold": "<code class='code code--tool'>Pingdom</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Datadog</code>"
     },
     {
       "Area": "Observability",
       "Cases": "Alerting",
-      "Research": "",
+      "Research": "<code class='code code--tool'>Go Alert</code>",
       "Trial": "",
       "Best choice": "<code class='code code--tool'>Opsgenie</code> <code class='code code--tool'>Statuspage</code>",
-      "Hold": "<code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>Prometheus (Alertmanager)</code>"
-    },
-    {
-      "Area": "Observability",
-      "Cases": "Logging",
-      "Research": "<code class='code code--tool'>Grafana Loki</code> <code class='code code--tool'>Dynatrace</code>",
-      "Trial": "",
-      "Best choice": "<code class='code code--tool'>OpenSearch</code> <code class='code code--tool'>Open Distro for Elasticsearch</code>",
-      "Hold": "<code class='code code--tool'>Graylog</code>"
+      "Hold": "<code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Prometheus (Alertmanager)</code>"
     },
     {
       "Area": "Observability",
       "Cases": "Tracing",
-      "Research": "<code class='code code--tool'>Open Telemetry</code> <code class='code code--tool'>Grafana Tempo</code>",
+      "Research": "<code class='code code--tool'>Open Telemetry</code>",
       "Trial": "",
-      "Best choice": "<code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Jaeger</code>",
-      "Hold": "<code class='code code--tool'>Zipkin</code>"
+      "Best choice": "<code class='code code--tool'>Jaeger</code>",
+      "Hold": "<code class='code code--tool'>Zipkin</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code>"
     },
     {
       "Area": "Observability",
       "Cases": "Visualize",
       "Research": "",
       "Trial": "",
-      "Best choice": "<code class='code code--tool'>Grafana</code> <code class='code code--tool'>Statuspage</code> <code class='code code--tool'>Dynatrace</code>",
-      "Hold": "<code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Kibana</code>"
+      "Best choice": "<code class='code code--tool'>Grafana</code> <code class='code code--tool'>Statuspage</code>",
+      "Hold": "<code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Kibana</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code>"
     },
     {
       "Area": "CICD",
       "Cases": "CI tool",
-      "Research": "<code class='code code--tool'>Argo workflow</code>",
+      "Research": "",
       "Trial": "<code class='code code--tool'>Github Actions</code>",
       "Best choice": "<code class='code code--tool'>Jenkins</code>",
-      "Hold": "<code class='code code--tool'>Gitlab CI</code>"
+      "Hold": "<code class='code code--tool'>Gitlab CI</code> <code class='code code--tool'>Argo workflow</code>"
     },
     {
       "Area": "CICD",
@@ -338,7 +330,7 @@
     {
       "Area": "CICD",
       "Cases": "Vulnerabilities Scanning",
-      "Research": "",
+      "Research": "<code class='code code--tool'>Aqua Security</code>",
       "Trial": "<code class='code code--tool'>Jfrog Xray</code> <code class='code code--tool'>Checkmarx</code> <code class='code code--tool'>Github Vulnerabilities scanner</code>",
       "Best choice": "",
       "Hold": ""
@@ -346,18 +338,26 @@
     {
       "Area": "CICD",
       "Cases": "CD tool/framework",
-      "Research": "<code class='code code--tool'>Saltstack</code>",
-      "Trial": "",
-      "Best choice": "<code class='code code--tool'>Ansible</code> <code class='code code--tool'>IaC</code> <code class='code code--tool'>Helm</code> <code class='code code--tool'>Terraform</code>",
+      "Research": "<code class='code code--tool'>Turbine</code>",
+      "Trial": "<code class='code code--tool'>Saltstack</code> <code class='code code--framework'>Argo CD</code>",
+      "Best choice": "<code class='code code--tool'>Ansible</code> <code class='code code--tool'>Helm</code> <code class='code code--tool'>Terraform</code>",
       "Hold": "<code class='code code--tool'>Puppet</code>"
     },
     {
       "Area": "CICD",
       "Cases": "Containerization",
-      "Research": "",
+      "Research": "<code class='code code--tool'>Buildpacks</code>",
       "Trial": "<code class='code code--tool'>Werf</code>",
-      "Best choice": "<code class='code code--tool'>Kubernetes</code> <code class='code code--tool'>Docker</code>",
-      "Hold": "<code class='code code--tool'>Openshift</code>"
+      "Best choice": "<code class='code code--tool'>Docker</code>",
+      "Hold": ""
+    },
+    {
+      "Area": "CICD",
+      "Cases": "Container Orchestration",
+      "Research": "",
+      "Trial": "",
+      "Best choice": "<code class='code code--tool'>Kubernetes</code>",
+      "Hold": "<code class='code code--tool'>Docker Compose</code> <code class='code code--tool'>Docker Swarm</code> <code class='code code--tool'>OpenShift</code>"
     },
     {
       "Area": "CICD",
@@ -368,12 +368,20 @@
       "Hold": "<code class='code code--tool'>Git</code>"
     },
     {
+      "Area": "CICD",
+      "Cases": "Logging",
+      "Research": "<code class='code code--tool'>Grafana Loki</code>",
+      "Trial": "",
+      "Best choice": "<code class='code code--tool'>OpenSearch</code>",
+      "Hold": "<code class='code code--tool'>Dynatrace</code>"
+    },
+    {
       "Area": "Infrastructure",
       "Cases": "Cloud",
       "Research": "<code class='code code--tool'>VK Cloud Solutions</code> <code class='code code--tool'>SberCloud Advance</code>",
       "Trial": "",
       "Best choice": "<code class='code code--tool'>Yandex Cloud</code> <code class='code code--tool'>OpenStack</code>",
-      "Hold": "<code class='code code--tool'>Huawei Cloud</code>"
+      "Hold": ""
     },
     {
       "Area": "Infrastructure",
