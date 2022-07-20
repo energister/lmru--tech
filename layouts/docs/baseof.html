@@ -21,6 +21,7 @@
             {{ block "main" . }}{{ end }}
           </div>
           {{ if .Params.stack_table }}{{ partial "stack.html" }} {{end}}
+          {{ if .Params.matrix_table }}{{ partial "matrix.html" }} {{end}}
         	<div class="inner-page__last-change">{{ partial "page-meta-lastmod.html" . }}</div>
           </div>
         </div>
