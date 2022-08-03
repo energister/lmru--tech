@@ -26,7 +26,8 @@ type: docs
 
 {{% blocks/inner-block  class="inner-page__block--sm" %}}
 
-Используем `camelCase` для всех полей.
+Названия полей из нескольких слов пишем слитно в `lower case`, значения полей отделяем друг от друга `-`.
+
 
 {{% /blocks/inner-block %}}
 
@@ -71,7 +72,7 @@ type: docs
 
 {{% blocks/inner-block  class="inner-page__block--sm" %}}
 {{% blocks/block-bordered class="block-bordered--success" title-h4="Пример" %}}
-`paymentGateway-tx-x-orders-paymentTask-v1`
+`paymentgateway-tx-x-orders-paymenttask-v1`
 {{% /blocks/block-bordered %}}
 {{% /blocks/inner-block %}}
 
@@ -94,7 +95,7 @@ type: docs
 {{% /blocks/inner-block %}}
 
 {{% blocks/block-bordered class="block-bordered--success" title-h4="Пример" %}}
-`solution-tx-q-orders-paymentTask-created-v2`
+`solution-tx-q-orders-paymenttask-created-v2`
 {{% /blocks/block-bordered %}}
 
 ---
