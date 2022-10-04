@@ -7,11 +7,11 @@
 
 # Leroy Merlin Technology Culture
 
-Hello and welcome! This is home for Leroy Merlin Russia technology culture. All materials see in the `content` folder.
+Hello and welcome! This is home for Leroy Merlin Digital Technologies technology culture. All materials see in the `content` folder.
 
 ## What is the purpose
 
-The main reason for this site is to have all common technical agreements in a written form in the central place [tech.leroymerlin.ru](https://tech.leroymerlin.ru/).
+The main reason for this site is to have all common technical agreements in a written form in the central place.
 
 ## Contributing
 

@@ -1,5 +1,5 @@
 baseURL = "/"
-title = "Leroy Merlin Tech"
+title = "Леруа Мерлен Цифровые Технологии"
 
 enableRobotsTXT = true
 
@@ -49,12 +49,6 @@ id = "G-EJPYBKPS1Q"
 # Language configuration
 
 [languages]
-[languages.en]
-title = "Leroy Merlin Tech"
-description = "Company's engineering portal."
-images = ["https://tech.leroymerlin.ru/images/leroy-merlin-tech.en.jpg"]
-languageName ="English"
-weight = 2
 [languages.ru]
 title = "Леруа Мерлен Цифровые Технологии"
 description = "Инженерная культура компании."
