@@ -1,5 +1,5 @@
 +++
-title = "Leroy Merlin Tech"
+title = "Леруа Мерлен Цифровые Технологии"
 +++
 <div>
 {{< blocks/intro >}}
