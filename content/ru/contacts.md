@@ -17,4 +17,4 @@ hide_feedback: true
 
 +7(495)139-17-09
 
-lm.digital@leroymerlin.ru
+info@leroymerlin-tech.ru
