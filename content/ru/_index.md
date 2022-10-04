@@ -186,10 +186,7 @@ title = "Leroy Merlin Tech"
 
 {{< /blocks/teams-domain >}}
  
-{{< /teams >}} 
-{{< blocks/mission title="У нас есть миссия">}}
-Делать улучшение и&nbsp;обустройство своего дома возможным для каждого клиента, <em> поддерживая и&nbsp;развивая экосистему партнёров</em>
-{{< /blocks/mission >}}
+{{< /teams >}}
 {{< blocks/values >}}
 {{< blocks/values-card title="Люди" href="/values/people/" img-src="/images/values/girl1" img-alt="" img-width="354" img-height="500" img-format="jpg">}}
 Даём конструктивный фидбэк, обмениваемся опытом в кросс-продуктовых сообществах и проводим ретроспективы, чтобы учиться на ошибках.

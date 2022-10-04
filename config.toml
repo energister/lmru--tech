@@ -56,7 +56,7 @@ images = ["https://tech.leroymerlin.ru/images/leroy-merlin-tech.en.jpg"]
 languageName ="English"
 weight = 2
 [languages.ru]
-title = "Леруа Мерлен Tech"
+title = "Леруа Мерлен Цифровые Технологии"
 description = "Инженерная культура компании."
 languageName ="Русский"
 images = ["https://tech.leroymerlin.ru/images/leroy-merlin-tech.jpg"]

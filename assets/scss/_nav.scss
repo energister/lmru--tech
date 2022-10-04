@@ -13,6 +13,10 @@
     }
 }
 
+.cursor_pointer, .cursor_pointer a, .cursor_pointer a span {
+    cursor: pointer;
+}
+
 .nav__item {
     position: relative;
     margin-right: 8px;

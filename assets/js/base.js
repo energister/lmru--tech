@@ -64,10 +64,10 @@ function getCookie(name) {
       }
     
       var preferLang = getFirstBrowserLanguage()
-      if (window.location.pathname == '/' && !getCookie("redirected") && preferLang.indexOf('ru') == -1) {
-        setCookie("redirected", true, 365);
-        window.location.replace('/en/');
-      }
+      // if (window.location.pathname == '/' && !getCookie("redirected") && preferLang.indexOf('ru') == -1) {
+      //   setCookie("redirected", true, 365);
+      //   window.location.replace('/en/');
+      // }
     })()
 
         class Accordions {

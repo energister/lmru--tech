@@ -4,14 +4,12 @@
   <div class="header__wrapper container container--1920w">
     {{ if .Page.IsHome}}
     <div class="logo">
-      {{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content |
-      safeHTML }}{{ end }}
+      Леруа Мерлен<br /><span>Цифровые Технологии</span>
     </div>
     {{ else }}
     <a class="logo" href="{{ .Site.Home.Permalink }}"
       aria-label="Перейти на Главную">
-      {{ with resources.Get "icons/logo.svg" }}{{ ( . | minify).Content |
-      safeHTML }}{{ end }}
+      Леруа Мерлен<br /><span>Цифровые Технологии</span>
     </a>
     {{ end }}
     <button class="menu-toggle-btn">
@@ -65,7 +63,7 @@
             </ul>
           </li>
           {{ else }}
-          <li class="nav__item">
+          <li class="nav__item cursor_pointer">
             <a href="{{ .URL }}">
               {{ .Pre }}
               <span>{{ .Name }}</span>
