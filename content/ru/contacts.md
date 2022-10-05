@@ -7,6 +7,7 @@ menu:
   main:
     weight: 80
 hide_feedback: true
+lastmod_disabled: true
 ---
 
 **ООО «ЛЕРУА МЕРЛЕН ЦИФРОВЫЕ ТЕХНОЛОГИИ»**
@@ -18,3 +19,5 @@ hide_feedback: true
 +7(495)139-17-09
 
 info@leroymerlin-tech.ru
+
+&nbsp;

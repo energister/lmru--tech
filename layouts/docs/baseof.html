@@ -22,7 +22,7 @@
           </div>
           {{ if .Params.stack_table }}{{ partial "stack.html" }} {{end}}
           {{ if .Params.matrix_table }}{{ partial "matrix.html" }} {{end}}
-        	<div class="inner-page__last-change">{{ partial "page-meta-lastmod.html" . }}</div>
+            {{ if not .Params.lastmod_disabled }}<div class="inner-page__last-change">{{ partial "page-meta-lastmod.html" . }}</div> {{ end }}
           </div>
         </div>
       </div>
