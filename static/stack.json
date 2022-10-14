@@ -266,9 +266,9 @@
     {
       "Area": "Observability",
       "Cases": "Monitoring (application)",
-      "Research": "<code class='code code--tool'>Grafana Mimir</code> <code class='code code--framework'>OpenTelemetry</code>",
-      "Trial": "<code class='code code--tool'>Gogomonia</code> <code class='code code--tool'>VictoriaMetrics</code>",
-      "Best choice": "<code class='code code--tool'>Prometheus</code> <code class='code code--framework'>Prometheus Client Libraries</code>",
+      "Research": "<code class='code code--framework'>OpenTelemetry</code>",
+      "Trial": "<code class='code code--tool'>Grafana Mimir</code>",
+      "Best choice": "<code class='code code--tool'>Gogomonia</code> <code class='code code--tool'>Prometheus</code> <code class='code code--framework'>Prometheus Client Libraries</code> <code class='code code--tool'>Vector</code> <code class='code code--tool'>VictoriaMetrics</code>",
       "Hold": "<code class='code code--tool'>Pingdom</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Datadog</code>"
     },
     {
@@ -290,8 +290,8 @@
     {
       "Area": "Observability",
       "Cases": "Tracing",
-      "Research": "<code class='code code--tool'>Grafana Tempo</code> <code class='code code--tool'>OpenTelemetry</code> <code class='code code--framework'>OpenTelemetry</code>",
-      "Trial": "",
+      "Research": "<code class='code code--tool'>Grafana Tempo</code>",
+      "Trial": "<code class='code code--tool'>OpenTelemetry</code> <code class='code code--framework'>OpenTelemetry Instrumenting Libraries</code>",
       "Best choice": "<code class='code code--tool'>Jaeger</code>",
       "Hold": "<code class='code code--tool'>Zipkin</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code>"
     },
