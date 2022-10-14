@@ -80,12 +80,12 @@
       "Hold": ""
     },
     {
-       "Area": "Data",
-       "Cases": "DWH",
-       "Research": "",
-       "Trial": "",
-       "Best choice": "<code class='code code--tool'>Greenplum</code>",
-       "Hold": "<code class='code code--tool'>SQL Server</code>"
+      "Area": "Data",
+      "Cases": "DWH",
+      "Research": "",
+      "Trial": "",
+      "Best choice": "<code class='code code--tool'>Greenplum</code>",
+      "Hold": "<code class='code code--tool'>SQL Server</code>"
     },
     {
       "Area": "Data",
@@ -94,7 +94,7 @@
       "Trial": "",
       "Best choice": "",
       "Hold": ""
-      },
+    },
     {
       "Area": "Data",
       "Cases": "Dataload",
@@ -247,13 +247,13 @@
       "Best choice": "<code class='code code--framework'>REST</code> <code class='code code--tool'>RabbitMQ</code> <code class='code code--tool'>Kafka</code>",
       "Hold": "<code class='code code--tool'>SOAP</code> <code class='code code--tool'>JMS</code> <code class='code code--tool'>ActiveMQ</code>"
     },
-        {
+    {
       "Area": "API management",
       "Cases": "Product to Product integrations",
       "Research": "<code class='code code--tool'>S3</code>",
       "Trial": "",
       "Best choice": "<code class='code code--framework'>REST (Plain JSON)</code> <code class='code code--tool'>RabbitMQ</code> <code class='code code--tool'>Kafka</code>",
-      "Hold": "<code class='code code--tool'>FTP / SFTP</code> <code class='code code--framework'>gRPC</code> <code class='code code--framework'>GraphQL</code> <code class='code code--tool'>ActiveMQ</code> <code class='code code--tool'>JMS</code> <code class='code code--language'>XML</code> <code class='code code--language'>SOAP</code>"
+      "Hold": "<code class='code code--tool'>FTP / SFTP</code> <code class='code code--framework'>gRPC</code> <code class='code code--framework'>GraphQL</code> <code class='code code--tool'>ActiveMQ</code> <code class='code code--tool'>JMS</code> <code class='code code--lang'>XML</code> <code class='code code--lang'>SOAP</code>"
     },
     {
       "Area": "API management",
@@ -266,23 +266,31 @@
     {
       "Area": "Observability",
       "Cases": "Monitoring (application)",
-      "Research": "<code class='code code--tool'>Gogomonia</code> <code class='code code--framework'>Open Telemetry</code>",
-      "Trial": "<code class='code code--tool'>VictoriaMetrics</code>",
-      "Best choice": "<code class='code code--tool'>Prometheus</code>",
+      "Research": "<code class='code code--tool'>Grafana Mimir</code> <code class='code code--framework'>OpenTelemetry</code>",
+      "Trial": "<code class='code code--tool'>Gogomonia</code> <code class='code code--tool'>VictoriaMetrics</code>",
+      "Best choice": "<code class='code code--tool'>Prometheus</code> <code class='code code--framework'>Prometheus Client Libraries</code>",
       "Hold": "<code class='code code--tool'>Pingdom</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Datadog</code>"
     },
     {
       "Area": "Observability",
       "Cases": "Alerting",
-      "Research": "<code class='code code--tool'>Go Alert</code>",
+      "Research": "<code class='code code--tool'>Grafana OnCall</code> <code class='code code--tool'>Netflix Dispatch</code>",
       "Trial": "",
       "Best choice": "<code class='code code--tool'>Opsgenie</code> <code class='code code--tool'>Statuspage</code>",
-      "Hold": "<code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Prometheus (Alertmanager)</code>"
+      "Hold": "<code class='code code--tool'>GoAlert</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Alertmanager</code>"
+    },
+    {
+      "Area": "Observability",
+      "Cases": "Logging",
+      "Research": "",
+      "Trial": "<code class='code code--tool'>Promtail</code> <code class='code code--tool'>Grafana Loki</code>",
+      "Best choice": "<code class='code code--tool'>OpenSearch</code> <code class='code code--tool'>Vector</code>",
+      "Hold": "<code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Open Distro</code>"
     },
     {
       "Area": "Observability",
       "Cases": "Tracing",
-      "Research": "<code class='code code--tool'>Open Telemetry</code>",
+      "Research": "<code class='code code--tool'>Grafana Tempo</code> <code class='code code--tool'>OpenTelemetry</code> <code class='code code--framework'>OpenTelemetry</code>",
       "Trial": "",
       "Best choice": "<code class='code code--tool'>Jaeger</code>",
       "Hold": "<code class='code code--tool'>Zipkin</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code>"
@@ -292,7 +300,7 @@
       "Cases": "Visualize",
       "Research": "",
       "Trial": "",
-      "Best choice": "<code class='code code--tool'>Grafana</code> <code class='code code--tool'>Statuspage</code>",
+      "Best choice": "<code class='code code--tool'>OpenSearch Dashboards</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>Statuspage</code>",
       "Hold": "<code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Kibana</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code>"
     },
     {
@@ -366,14 +374,6 @@
       "Trial": "<code class='code code--tool'>Encrypted in Git</code>",
       "Best choice": "<code class='code code--tool'>Hashicorp Vault</code>",
       "Hold": "<code class='code code--tool'>Git</code>"
-    },
-    {
-      "Area": "CICD",
-      "Cases": "Logging",
-      "Research": "<code class='code code--tool'>Grafana Loki</code>",
-      "Trial": "",
-      "Best choice": "<code class='code code--tool'>OpenSearch</code>",
-      "Hold": "<code class='code code--tool'>Dynatrace</code>"
     },
     {
       "Area": "Infrastructure",
