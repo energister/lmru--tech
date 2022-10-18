@@ -187,17 +187,17 @@
       "Area": "Frontends",
       "Cases": "Web",
       "Research": "",
-      "Trial": "<code class='code code--framework'>Vue.js</code> <code class='code code--tool'>WebComponents</code> <code class='code code--framework'>Angular</code> <code class='code code--framework'>Mobx</code>",
-      "Best choice": "<code class='code code--lang'>TypeScript</code> <code class='code code--lang'>JavaScript</code> <code class='code code--framework'>React</code> <code class='code code--tool'>Linaria</code> <code class='code code--tool'>OKAPI</code> <code class='code code--framework'>HTTP2</code> <code class='code code--tool'>CSS Modules</code> <code class='code code--framework'>Redux</code>",
-      "Hold": "<code class='code code--lang'>PHP</code> <code class='code code--framework'>AEM</code> <code class='code code--framework'>BEM</code> <code class='code code--framework'>Bitrix</code>"
+      "Trial": "<code class='code code--framework'>Redux-toolkit</code> <code class='code code--tool'>Context API</code> <code class='code code--framework'>Mobx</code> <code class='code code--framework'>React-query</code> <code class='code code--tool'>Emotion</code> <code class='code code--framework'>Effector</code>",
+      "Best choice": "<code class='code code--lang'>TypeScript</code> <code class='code code--lang'>JavaScript</code> <code class='code code--framework'>React</code> <code class='code code--tool'>Linaria</code> <code class='code code--tool'>OKAPI</code> <code class='code code--framework'>HTTP2</code> <code class='code code--tool'>CSS Modules</code> <code class='code code--framework'>Jest</code> <code class='code code--tool'>ESlint</code> <code class='code code--lang'>SCSS</code> <code class='code code--tool'>Stylelint</code> <code class='code code--framework'>React testing library</code> <code class='code code--tool'>React-router</code> <code class='code code--tool'>Prettier</code> <code class='code code--tool'>Webpack</code> <code class='code code--tool'>Lodash</code> <code class='code code--tool'>Postcss</code> <code class='code code--framework'>Storybook</code> <code class='code code--tool'>Antd/tables</code> <code class='code code--tool'>Axios</code> <code class='code code--tool'>React-i18next</code>  <code class='code code--tool'>Date-fns</code> <code class='code code--tool'>Lerna</code> <code class='code code--tool'>Module federation</code>",
+      "Hold": "<code class='code code--lang'>PHP</code> <code class='code code--framework'>AEM</code> <code class='code code--framework'>BEM</code> <code class='code code--framework'>Bitrix</code> <code class='code code--framework'>Vue.js</code> <code class='code code--framework'>Angular</code> <code class='code code--tool'>WebComponents</code> <code class='code code--framework'>Redux</code> <code class='code code--lang'>Flow</code> <code class='code code--lang'>Less</code> <code class='code code--tool'>Redux-form</code> <code class='code code--tool'>Moment</code> <code class='code code--tool'>Gulp</code> <code class='code code--tool'>Enzyme</code>"
     },
     {
       "Area": "Frontends",
       "Cases": "Design Systems for Web",
       "Research": "",
-      "Trial": "<code class='code code--framework'>Ant Design</code> <code class='code code--framework'>Material Design</code>",
+      "Trial": "<code class='code code--framework'>Ant Design</code>",
       "Best choice": "<code class='code code--framework'>Fronton</code>",
-      "Hold": "<code class='code code--framework'>LMUI</code>"
+      "Hold": "<code class='code code--framework'>LMUI</code> <code class='code code--framework'>Material Design</code>"
     },
     {
       "Area": "Mobile",
