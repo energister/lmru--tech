@@ -200,16 +200,32 @@
       "Hold": "<code class='code code--framework'>LMUI</code>"
     },
     {
-      "Area": "Frontends",
-      "Cases": "Mobile",
-      "Research": "<code class='code code--tool'>Qt</code> <code class='code code--tool'>Kaspresso</code> <code class='code code--tool'>XCTest</code> <code class='code code--tool'>Jetpack Compose</code>",
-      "Trial": "<code class='code code--framework'>React Native</code> <code class='code code--tool'>Jetpack Navigation</code>",
-      "Best choice": "<code class='code code--lang'>Swift</code> <code class='code code--tool'>Alamofire</code> <code class='code code--lang'>Kotlin</code> <code class='code code--tool'>Firebase</code> <code class='code code--tool'>Room</code> <code class='code code--tool'>Core Data</code> <code class='code code--tool'>Retrofit + Okhttp</code> <code class='code code--tool'>Kotlin Multiplatform Mobile</code>",
-      "Hold": "<code class='code code--lang'>Java</code> <code class='code code--lang'>Objective-C</code> <code class='code code--framework'>RxJava</code> <code class='code code--framework'>gRPC</code>"
+      "Area": "Mobile",
+      "Cases": "Android",
+      "Research": "<code class='code code--framework'>Odyssey</code>",
+      "Trial": "<code class='code code--framework'>Hilt</code>",
+      "Best choice": "<code class='code code--tool'>Jetpack Compose</code> <code class='code code--lang'>Kotlin</code> <code class='code code--framework'>Kodein</code> <code class='code code--framework'>Coroutines</code> <code class='code code--tool'>Firebase</code> <code class='code code--framework'>Room</code> <code class='code code--framework'>Retrofit + Okhttp</code>",
+      "Hold": "<code class='code code--framework'>Jetpack Navigation</code> <code class='code code--lang'>Java</code> <code class='code code--lang'>Objective-C</code> <code class='code code--framework'>RxJava</code> <code class='code code--framework'>gRPC</code>"
     },
     {
-      "Area": "Frontends",
-      "Cases": "Design Systems for Mobile",
+      "Area": "Mobile",
+      "Cases": "iOS",
+      "Research": "",
+      "Trial": "",
+      "Best choice": "<code class='code code--lang'>Swift</code> <code class='code code--framework'>Alamofire</code> <code class='code code--tool'>Firebase</code> <code class='code code--framework'>Core Data</code>",
+      "Hold": "<code class='code code--lang'>Objective-C</code> <code class='code code--framework'>RxSwift</code> <code class='code code--framework'>gRPC</code>"
+    },
+    {
+      "Area": "Mobile",
+      "Cases": "Crossplatform",
+      "Research": "",
+      "Trial": "",
+      "Best choice": "<code class='code code--framework'>Odyssey</code> <code class='code code--framework'>Libres</code> <code class='code code--framework'>Compose Multiplatform</code> <code class='code code--framework'>Kodein</code> <code class='code code--framework'>Coroutines</code> <code class='code code--lang'>Kotlin</code> <code class='code code--tool'>Firebase</code> <code class='code code--framework'>SQLDelight</code> <code class='code code--framework'>Ktor</code> <code class='code code--tool'>Kotlin Multiplatform Mobile</code>",
+      "Hold": "<code class='code code--framework'>React Native</code>"
+    },
+    {
+      "Area": "Mobile",
+      "Cases": "Design Systems",
       "Research": "",
       "Trial": "",
       "Best choice": "<code class='code code--framework'>Fronton</code>",
