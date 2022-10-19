@@ -38,8 +38,10 @@ table.dataTable {
         tr.dtrg-group.dtrg-level-0 td {
             @include primary-text;
             background-color: $color-default-white !important;
-            font-weight: 400 !important;
+            font-weight: 800 !important;
             padding: 16px;
+            border-top: 1px solid #5ab030;
+            border-bottom: 1px solid #5ab030;
             
             @include vp-1023 {
                 padding: 8px;
