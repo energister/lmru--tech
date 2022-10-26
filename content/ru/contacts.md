@@ -20,6 +20,7 @@ meta_description: "Юридический адрес компании Леруа
 <span itemprop="addressLocality">г. Москва</span>,
 <span itemprop="streetAddress">пр-т Лихачёва, д. 15, пом. 2/1, комната №116</span>
 </div>
+
 **ИНН 9725097780 КПП 772501001**
 
 {{< svg icon="icon-tel" stack-icon="contacts-icon">}} <span itemprop="telephone">+7(495)139-17-09</span>
