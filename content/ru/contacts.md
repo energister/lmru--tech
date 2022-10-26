@@ -16,6 +16,8 @@ lastmod_disabled: true
 
 **ИНН 9725097780 КПП 772501001**
 
-{{< svg icon="icon-tel" stack-icon="contacts-icon">}} +7(495)139-17-09 {{< svg icon="icon-email" stack-icon="contacts-icon">}} info@leroymerlin-tech.ru
+{{< svg icon="icon-tel" stack-icon="contacts-icon">}} +7(495)139-17-09
+{{< svg icon="icon-email" stack-icon="contacts-icon">}} <a href="https://leroymerlin.ru/company/obratnaya-svyaz/">Написать нам</a>
+{{< svg icon="icon-partners" stack-icon="contacts-icon">}} <a href="https://leroymerlin.ru/postavshchikam/netovarnym/">Сотрудничество</a>
 
 ![Контакты 9725097780](/images/contacts/office.jpg)
