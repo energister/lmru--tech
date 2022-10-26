@@ -7,8 +7,6 @@ menu:
 type: docs
 ---
 
-## Пример синхронного API
-
 Приложение отправляет запрос получателю и останавливает работу, пока ждёт ответа. Такой подход применяют, если нужно сохранить порядок вызовов систем.
 
 {{% blocks/inner-block %}}
@@ -310,7 +308,7 @@ ADEO-BU-CODE: 10
 
 ### UCUM – Меры измерения
 
-Все меры измерения [в UCUM specification](https://unitsofmeasure.org/).
+Все меры измерения [в UCUM specification](https://ucum.org/).
 {{% /blocks/inner-section %}}
 
 ---

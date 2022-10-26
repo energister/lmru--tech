@@ -3,9 +3,12 @@ title: "Как начать использовать новую технолог
 weight: 30
 menu:
     main:
+        weight: 30
         parent: "Стек технологий"
 type: docs
 mod_page: inner-page--small-title
+meta_title: "Этапы использования технологий в Леруа Мерлен Цифровые Технологии"
+meta_description: "Как начать использовать новую технологию."
 ---
 
 {{< blocks/image class="stack-img" src="/images/stack/stack" format="png" width="760" height="339" alt="Этапы стека технологий" >}}

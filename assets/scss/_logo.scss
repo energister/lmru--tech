@@ -1,8 +1,13 @@
-.logo, a.logo {
+.logo, h1.logo {
     width: 208px;
     height: 48px;
     font-size: 1.2em;
     font-weight: 500;
+    color: black;
+    letter-spacing: normal;
+}
+
+h1.logo a {
     color: black;
 }
 

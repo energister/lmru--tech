@@ -1,0 +1,26 @@
+User-agent: Yandex
+Disallow: /*?
+Disallow: *&
+Disallow: *utm=
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+
+User-Agent: Googlebot
+Disallow: /*?
+Disallow: *&
+Disallow: *utm=
+
+User-agent: *
+Disallow: /*?
+Disallow: *&
+Disallow: *utm=
+Allow: *.css
+Allow: *.js
+Allow: *.png
+Allow: *.jpg
+Allow: *.gif
+
+Sitemap: https://leroymerlin-tech.ru/sitemap.xml
