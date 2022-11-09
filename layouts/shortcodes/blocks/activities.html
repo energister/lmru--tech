@@ -1,0 +1,8 @@
+{{$title:= .Get "title"}}
+
+<div class="container">
+    <div class="activities" data-aos="fade-up" data-delay-child data-delay-child-counter-reset="5">
+        <h3 class="activities-title">{{ $title }}</h3>
+        {{ .Inner }}
+    </div>
+</div>

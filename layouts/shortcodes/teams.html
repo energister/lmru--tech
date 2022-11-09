@@ -80,7 +80,7 @@
         moreBtn.style.display = 'none';
         overlay.style.display = 'none';
 
-        moreBtn.removeEventListener('click', showMoreHandler);
+        // moreBtn.removeEventListener('click', showMoreHandler);
       }
     }
   };
@@ -94,7 +94,7 @@
     showList(PAGE_SIZE[width]);
 
       moreBtn = document.querySelector('.teams__more');
-      moreBtn.addEventListener('click', showMoreHandler);
+      // moreBtn.addEventListener('click', showMoreHandler);
 
       overlay = document.querySelector('.teams__overlay');
 
@@ -117,16 +117,12 @@
 <div class="teams">
   <div class="container">
     <h2 class="teams__title" data-aos="fade-up">Домены</h2>
-    <p class="teams__text" data-aos="fade-up"> В нашей компании 20 направлений, в&nbsp;которых работают 700+ инженеров </p>
+    <p class="teams__text" data-aos="fade-up"> </p>
 
     <ul class="teams__list teams__list--clipped" data-delay-child
       data-delay-child-counter-reset="4">
       {{ .Inner | markdownify }}
     </ul>
-
-    <button class="btn teams__more">Показать ещё</button>
-
-    <div class="teams__overlay"></div>
 
     {{ partial "modal/modal.html" (dict "context" . "path"
     "modal/modal-domain.html" "name"
