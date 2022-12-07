@@ -1,5 +1,5 @@
 ---
-name: "\U0001F9EA   Propose [tech] to Assess Stage"
+name: "\U0001F9EA   Propose [Tech] to Assess Stage"
 about: You want to test out a technology and make it visible to teams around that
   can probably contribute.
 title: ''
