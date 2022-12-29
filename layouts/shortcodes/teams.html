@@ -80,7 +80,7 @@
         moreBtn.style.display = 'none';
         overlay.style.display = 'none';
 
-        // moreBtn.removeEventListener('click', showMoreHandler);
+        moreBtn.removeEventListener('click', showMoreHandler);
       }
     }
   };
@@ -94,7 +94,7 @@
     showList(PAGE_SIZE[width]);
 
       moreBtn = document.querySelector('.teams__more');
-      // moreBtn.addEventListener('click', showMoreHandler);
+      moreBtn.addEventListener('click', showMoreHandler);
 
       overlay = document.querySelector('.teams__overlay');
 
@@ -123,7 +123,9 @@
       data-delay-child-counter-reset="4">
       {{ .Inner | markdownify }}
     </ul>
+    <button class="btn teams__more">Показать ещё</button>
 
+    <div class="teams__overlay"></div>
     {{ partial "modal/modal.html" (dict "context" . "path"
     "modal/modal-domain.html" "name"
     "domain") }}
