@@ -292,23 +292,23 @@
     "Cases": "Monitoring (application)",
     "Research": "<code class='code code--framework'>OpenTelemetry</code>",
     "Trial": "<code class='code code--tool'>Grafana Mimir</code>",
-    "Best choice": "<code class='code code--tool'>Gogomonia</code> <code class='code code--tool'>Prometheus</code> <code class='code code--framework'>Prometheus Client Libraries</code> <code class='code code--tool'>Vector</code> <code class='code code--tool'>VictoriaMetrics</code>",
+    "Best choice": "<code class='code code--tool'>Sentry</code> <code class='code code--tool'>Gogomonia</code> <code class='code code--tool'>Prometheus</code> <code class='code code--framework'>Prometheus Client Libraries</code> <code class='code code--tool'>Vector</code> <code class='code code--tool'>VictoriaMetrics</code>",
     "Hold": "<code class='code code--tool'>Pingdom</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Datadog</code>"
   },
   {
     "Area": "Observability",
     "Cases": "Alerting",
-    "Research": "<code class='code code--tool'>Grafana OnCall</code> <code class='code code--tool'>Netflix Dispatch</code>",
+    "Research": "",
     "Trial": "",
-    "Best choice": "<code class='code code--tool'>Opsgenie</code> <code class='code code--tool'>Statuspage</code>",
-    "Hold": "<code class='code code--tool'>GoAlert</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Alertmanager</code>"
+    "Best choice": "<code class='code code--tool'>Grafana OnCall</code>",
+    "Hold": "<code class='code code--tool'>GoAlert</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Opsgenie</code> <code class='code code--tool'>Statuspage</code> <code class='code code--tool'>Netflix Dispatch</code>"
   },
   {
     "Area": "Observability",
     "Cases": "Logging",
     "Research": "",
-    "Trial": "<code class='code code--tool'>Promtail</code> <code class='code code--tool'>Grafana Loki</code>",
-    "Best choice": "<code class='code code--tool'>OpenSearch</code> <code class='code code--tool'>Vector</code>",
+    "Trial": "",
+    "Best choice": "<code class='code code--tool'>Grafana Loki</code> <code class='code code--tool'>Promtail</code> <code class='code code--tool'>OpenSearch</code> <code class='code code--tool'>Vector</code>",
     "Hold": "<code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Open Distro</code>"
   },
   {
@@ -322,10 +322,10 @@
   {
     "Area": "Observability",
     "Cases": "Visualize",
-    "Research": "",
+    "Research": "<code class='code code--tool'>OneUptime</code>",
     "Trial": "",
-    "Best choice": "<code class='code code--tool'>OpenSearch Dashboards</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>Statuspage</code>",
-    "Hold": "<code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Kibana</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code>"
+    "Best choice": "<code class='code code--tool'>OpenSearch Dashboards</code> <code class='code code--tool'>Grafana</code>",
+    "Hold": "<code class='code code--tool'>Zabbix</code> <code class='code code--tool'>Kibana</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Datadog</code> <code class='code code--tool'>Statuspage</code>"
   },
   {
     "Area": "CICD",
