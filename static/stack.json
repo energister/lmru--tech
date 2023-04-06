@@ -301,7 +301,7 @@
     "Research": "",
     "Trial": "",
     "Best choice": "<code class='code code--tool'>Grafana OnCall</code>",
-    "Hold": "<code class='code code--tool'>GoAlert</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Opsgenie</code> <code class='code code--tool'>Statuspage</code> <code class='code code--tool'>Netflix Dispatch</code>"
+    "Hold": "<code class='code code--tool'>Alertmanager</code> <code class='code code--tool'>GoAlert</code> <code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Grafana</code> <code class='code code--tool'>PagerDuty</code> <code class='code code--tool'>Opsgenie</code> <code class='code code--tool'>Statuspage</code> <code class='code code--tool'>Netflix Dispatch</code>"
   },
   {
     "Area": "Observability",
@@ -309,7 +309,7 @@
     "Research": "",
     "Trial": "",
     "Best choice": "<code class='code code--tool'>Grafana Loki</code> <code class='code code--tool'>Promtail</code> <code class='code code--tool'>OpenSearch</code> <code class='code code--tool'>Vector</code>",
-    "Hold": "<code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Open Distro</code>"
+    "Hold": "<code class='code code--tool'>Elastic Stack</code> <code class='code code--tool'>Dynatrace</code> <code class='code code--tool'>Open Distro</code>"
   },
   {
     "Area": "Observability",
