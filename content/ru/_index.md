@@ -191,23 +191,6 @@ description = "Cтроим технологическую компанию-пл�
 {{< /blocks/values-card>}}    
 {{< /blocks/values >}}
 
-
-{{< blocks/hubr-publications title="Пишем статьи на Хабре" >}} 
-{{< blocks/button class="button--transparent hubr-publications__button" text="Больше статей" href="https://habr.com/ru/company/leroy_merlin/blog/" target="_blank">}}
-{{< blocks/hubr-publications-list-local >}} 
-{{< /blocks/hubr-publications >}}  
-{{< blocks/conference-speaking title="Выступаем на&nbsp;конференциях" text="Открыто делимся опытом, а ещё рассказываем об ошибках и новых проектах.">}}
-{{< blocks/button href="https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g" target="_blank" class="button--transparent conference-speaking__button" text="Наш YouTube-канал">}}
-{{< blocks/conference-speaking-list-local >}}
-{{< /blocks/conference-speaking >}}
-{{< blocks/jobs title="Хотите присоединиться к нам?" src="/images/jobs/jobs" format="jpg" alt="Сотрудники компаниии в работе" width="1420" height="647">}}
-{{< blocks/jobs-list-local >}}
-{{< blocks/jobs-buttons-wrapper >}}
-{{< blocks/button class="jobs__button-all" text="Все вакансии" href="https://rabota.leroymerlin.ru/it" target="_blank">}}
-{{< blocks/button class="button--transparent jobs__button" text="Про собеседование" dataModal="candidate">}}
-{{< /blocks/jobs-buttons-wrapper >}}
-{{< /blocks/jobs >}} {{< modal-candidate >}}
-
 {{< blocks/activities title="Оказываем услуги по направлениям" >}}
 {{< blocks/activity >}}
 Разработка, доработка, модификация, адаптация программного обеспечения.
@@ -225,5 +208,21 @@ description = "Cтроим технологическую компанию-пл�
 Другие услуги в области информационных технологий.
 {{< /blocks/activity >}}
 {{< /blocks/activities >}}
+
+{{< blocks/hubr-publications title="Пишем статьи на Хабре" >}} 
+{{< blocks/button class="button--transparent hubr-publications__button" text="Больше статей" href="https://habr.com/ru/company/leroy_merlin/blog/" target="_blank">}}
+{{< blocks/hubr-publications-list-local >}} 
+{{< /blocks/hubr-publications >}}  
+{{< blocks/conference-speaking title="Выступаем на&nbsp;конференциях" text="Открыто делимся опытом, а ещё рассказываем об ошибках и новых проектах.">}}
+{{< blocks/button href="https://www.youtube.com/channel/UCIqfZ4wqEoC6x6x-zyPCL8g" target="_blank" class="button--transparent conference-speaking__button" text="Наш YouTube-канал">}}
+{{< blocks/conference-speaking-list-local >}}
+{{< /blocks/conference-speaking >}}
+{{< blocks/jobs title="Хотите присоединиться к нам?" src="/images/jobs/jobs" format="jpg" alt="Сотрудники компаниии в работе" width="1420" height="647">}}
+{{< blocks/jobs-list-local >}}
+{{< blocks/jobs-buttons-wrapper >}}
+{{< blocks/button class="jobs__button-all" text="Все вакансии" href="https://rabota.leroymerlin.ru/it" target="_blank">}}
+{{< blocks/button class="button--transparent jobs__button" text="Про собеседование" dataModal="candidate">}}
+{{< /blocks/jobs-buttons-wrapper >}}
+{{< /blocks/jobs >}} {{< modal-candidate >}}
 
 </div>
