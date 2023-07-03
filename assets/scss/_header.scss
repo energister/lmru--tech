@@ -1,6 +1,6 @@
 :root {
     --header-height-desktop: 72px;
-    --header-height-mobile: 64px;
+    --header-height-mobile: 72px;
 }
 
 
@@ -102,13 +102,11 @@
     display: grid;
     grid-template-columns: 1fr min-content min-content;
     justify-content: center;
-    justify-items: center;
+    justify-items: end;
     align-items: center;
     column-gap: 16px;
-    padding-left: 130px;
 
     @include vp-1439 {
-        padding-left: 133px;
     }
 
     @include vp-1023 {
